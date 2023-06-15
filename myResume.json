@@ -1,0 +1,50 @@
+let myResume = {
+    "personal_info": {
+      "name": "Deepan Senthilkumar",
+      "email": "deepansenthilk2000@gmail.com",
+      "phone": "6383058792",
+      "location": {
+        "address": "59,Ramya Nagar,Nagai Road",
+        "City": "Thanjavur",
+        "Postalcode": 613001,
+        "state": "Tamil Nadu",
+        "country": "India"
+      },
+    },
+    "education": [
+      {
+        "institution": "Panimalar Institute of Technology",
+        "degree": "Bachelor of Engineering",
+        "major": "Electrical and Electronic Engineering",
+        "cgpa": 8.2,
+        "start_date": "August 2018",
+        "end_date": "July 2022",
+        "location": "Chennai"
+      },
+      {
+        "institution": "Best Matric Hr Sec School",
+        "degree": "Higher Secondary School(+2)",
+        "start_date": 2017,
+        "end_date": 2018
+      }
+    ],
+    "Project": {
+      "Name": "Renewable source Electric power with High Step up DC-DC convertor"
+    },
+    
+    "skills": [
+      {
+        "software knowledge": "Javascript,HTML,CSS,React,Node",
+        "Level": "Beginer"
+      }
+    ],
+    "languages": [
+      {
+        "language": "Tamil,Enlish",
+      }
+    ],
+    "interests": {
+      "name": "script writter,"
+    }
+}
+  
