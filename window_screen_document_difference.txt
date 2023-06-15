@@ -1,0 +1,25 @@
+Window:
+The window object represents the browser window or tab in which your web page is loaded.
+It is the top-level object that provides access to various properties and methods related to the browser window. Some key features of the window object include:
+*Accessing the global scope: Variables and functions declared globally in JavaScript become properties and methods of the window object.
+For example, window.alert() is used to display an alert dialog.
+*Controlling the browser window: The window object allows you to manipulate the browser window, such as resizing, moving, or closing it.
+*Managing timers and intervals: JavaScript's setTimeout and setInterval functions are methods of the window object.
+
+
+Screen:
+The screen object represents the user's screen or monitor. It provides information about the user's screen dimensions and features.
+Key properties of the screen object include:
+*screen.width and screen.height: These properties give you the width and height of the screen in pixels.
+*screen.availWidth and screen.availHeight: These properties provide the available width and height of the screen,
+excluding any operating system toolbars or other browser UI elements.
+The screen object is primarily used for obtaining information about the user's screen, which can be helpful for responsive design or positioning 
+elements on the page.
+
+Document:
+The document object represents the web page loaded in the browser window. It provides access to the HTML elements and other resources present in the document.
+The document object has several essential features:
+*Accessing and manipulating HTML elements: You can use the document object to select and modify HTML elements on the page using 
+methods like getElementById, querySelector, etc.
+*Changing the content and structure of the page: With the document object, you can create, modify, or remove elements, change text content, and handle events.
+*Accessing styles and CSS: The document object enables you to modify or retrieve styles and CSS classes applied to elements on the page.
